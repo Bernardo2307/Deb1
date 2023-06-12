@@ -76,7 +76,7 @@ const DOMaside = {
     products.length = 0;
     productsAside.length = 0;
 
-    await fetch(`http://diwserver.vps.webdock.cloud/products/category/Accessories - Headwear?page=${pageNumber}`)
+    await fetch(`https://diwserver.vps.webdock.cloud/products/category/Accessories - Headwear?page=${pageNumber}`)
         .then(async function (response) {
             return response.json();
         })
