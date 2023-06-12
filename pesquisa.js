@@ -4,7 +4,7 @@ let products = [];
 // Obter os parâmetros da URL
 const urlParams = new URLSearchParams(window.location.search);
 // declarando url da api 
-let apiUrl = "http://diwserver.vps.webdock.cloud/products/search?query=";
+let apiUrl = "https://diwserver.vps.webdock.cloud/products/search?query=";
 
 // Verificar se o parâmetro 'tipo' está presente na URL e adiciona-lo na url da api
 if (urlParams.has('tipo')) {
