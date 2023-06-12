@@ -44,7 +44,7 @@ function inserindoElementos(imagemUrl, titulo, descricao, preco, ano, avaliacao,
 
 // chamando api
 async function carregarConteudo() {
-    const apiUrl = `http://diwserver.vps.webdock.cloud/products/${id}`;
+    const apiUrl = `https://diwserver.vps.webdock.cloud/products/${id}`;
     console.log(apiUrl);
 
     await fetch(apiUrl)
